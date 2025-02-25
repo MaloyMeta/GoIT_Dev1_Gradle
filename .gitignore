@@ -1,14 +1,11 @@
-.gradle
-!build/libs
+### Gradle ###
+.gradle/
 !gradle/wrapper/gradle-wrapper.jar
-!**/src/main/**/build/
-!**/src/test/**/build/
+/build/
+!build/libs/
 
 ### IntelliJ IDEA ###
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
+.idea/
 *.iws
 *.iml
 *.ipr
@@ -21,9 +18,9 @@ out/
 .classpath
 .factorypath
 .project
-.settings
-.springBeans
-.sts4-cache
+.settings/
+.springBeans/
+.sts4-cache/
 bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
@@ -40,9 +37,7 @@ bin/
 
 ### Mac OS ###
 .DS_Store
- .idea
- .iws
- .iml
- .ipr
- target
- .DS_STORE /src/main/resources/log
+
+### Java ###
+target/
+*.log
